@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Andrian Ical</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #info {
+            position: relative;
+            text-align: center;
+            margin-bottom: 150px; 
+        }
+
+        #info img {
+            width: 200px;
+            height: auto;
+        }
+
+        #info .name {
+            position: absolute;
+            top: 100%; 
+            left: 0;
+            right: 0;
+            color: rgb(0, 0, 0);
+            transform: translateY(10px); 
+        }
+
+        #info .position {
+            position: absolute;
+            top: 120%; 
+            left: 0;
+            right: 0;
+            color: rgb(0, 0, 0);
+            transform: translateY(20px); 
+        }
+
+        .bolded {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftPanel">
+            <div id="info">
+                <img src="pic1.jpg" alt="Andrian Ical">
+                <div class="name">
+                    <h1>Andrian Ical</h1>
+                </div>
+                <div class="position">
+                    <div class="smallText">
+                        <h2 style="color:blue;">Web Developer</h2>
+                    </div>
+                </div>
+            </div>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="item">
+                    <h3>IT Skills</h3>
+                    <ul>
+                        <li class="bolded">Programming Languages: Java, Python, JavaScript</li>
+                        <li class="bolded">Web Technologies: HTML5, CSS3, jQuery</li>
+                        <li class="bolded">Database Management: MySQL, MongoDB</li>
+                        <li class="bolded">Operating Systems: Windows, Linux</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="rightPanel">
+            <div>
+                <h2>About me</h2>
+                <div class="smallText">
+                    <p>              
+                        Experienced programmer proficient in multiple languages, with a focus on problem-solving and clean, 
+                        efficient code. Enthusiastic about learning new technologies and contributing to innovative projects.
+                    </p>
+                </div>
+            </div>
+            <div id="workExperience">
+                <h2>Work Experience</h2>
+                <div>
+                    <p>IT Support Specialist - Helped coworkers with computer problems.</p>
+                    <p>Junior Web Developer - Helped make websites.</p>
+                    <p>Software Tester - Checked if computer programs worked correctly.</p>
+                    <p>Web Designer - Designed and created visually appealing and user-friendly websites for clients.</p>
+                </div>
+            </div>
+            <div>
+                <h2>Education</h2>
+                <div class="smallText">
+                    <p class="bolded white">Elementary->Lucena West 3 (2009-2016)</p>
+                    <p class="bolded white">High School->QNHS (2016-2019)</p>
+                    <p class="bolded white">Senior High->QNHS(HUMSS) Humanities and Social Sciences(2020-2022)</p>
+                    <p class="bolded white">College->DLL(BSIT) Bachelor of Science in Information Technology (present)</p>
+                </div>
+            </div>
+            <div class="item bottomLineSeparator">
+                <h2>Skills</h2>
+                <div class="smallText">
+                    <div class="skill">
+                        <span class="bolded">Accounting</span>
+                        <div class="skill">
+                            <span class="bolded">Cybersecurity</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="bolded">Web Development</span>
+                        <div class="skill">
+                            <span class="bolded">Cloud Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Contact</h2>
+                <div class="smallText">
+                    <p>
+                        <i class="fa fa-phone contactIcon" aria-hidden="true"></i> (+63) 966 466 0930 <i>
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">icalandrian20@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
